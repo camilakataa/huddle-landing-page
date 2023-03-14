@@ -1,0 +1,91 @@
+body {
+    font-family: var(--body-font);
+    font-weight: 400;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+header a img {
+    padding: 50px;
+    width: 300px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+main img {
+    padding: 25px;
+}
+
+main .info {
+    padding: 25px;
+    margin-left: 5px;
+}
+
+main .info h1 {
+    font-family: var(--headings-font);
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 30px 0 20px 0;
+}
+
+main .info p {
+    font-size: 20px;
+}
+
+main .info .btn-register {
+    display: flex;
+    background-color: #fff;
+    color: var(--dark-color);
+    font-family: var(--headings-font);
+    font-weight: 400;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+main .info .btn-register:hover{
+    background-color: var(--light-color);
+    color: #fff;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px 0 50px;
+}
+
+footer .socials a {
+    padding: 15px;
+}
+
+footer .socials a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px; 
+    transition: 0.3s ease-in-out;
+}
+
+footer .socials a i:hover{
+    color: var(--light-color);
+    border: 1px solid var(--light-color)
+}

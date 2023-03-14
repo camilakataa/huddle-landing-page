@@ -1,0 +1,29 @@
+@media (max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-color: var(--dark-color);
+        background-size: cover;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .info h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    main .info p {
+        text-align: center;
+        font-size: 15px;
+    }
+    main .info .btn-register {
+       margin-left: auto;
+       margin-right: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}
