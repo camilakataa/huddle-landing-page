@@ -1,14 +1,11 @@
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     body {
         background: url(../images/bg-mobile.svg) center center no-repeat;
         background-color: var(--dark-color);
         background-size: cover;
     }
     main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: 1fr;
     }
     main .info h1 {
         text-align: center;
@@ -26,4 +23,12 @@
         display: flex;
         justify-content: center;
     }
+}
+
+@media (min-width: 1440px){
+    main .image{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
